@@ -65,6 +65,7 @@ const Navbar = () => {
                         <div className={`bord1 ${styles.imageContainer}`}>
                             
                                 <img src={groupImage} alt="Group" className={styles.image} />
+                                <span className={styles.textOverlay}>back</span>
                             
                         </div>
                     )}

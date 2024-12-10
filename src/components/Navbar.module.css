@@ -49,6 +49,7 @@
     justify-content: center; /* Centraliza a imagem */
     padding: 1rem;
     width: 100%;
+    position: relative; /* Necessário para posicionar o texto */
 }
 
 .image {
@@ -56,7 +57,18 @@
     height: auto; /* Mantém a proporção */
     border-radius: 8px; /* Bordas arredondadas */
 }
-
+.textOverlay {
+    position: absolute; /* Permite posicionamento em relação ao contêiner */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, 50%); /* Centraliza o texto */
+    color: black; /* Cor do texto */
+    font-size: 0.75rem; /* Ajuste o tamanho do texto */
+    font-weight: 400; /* Deixa o texto em negrito */
+    text-align: center; /* Centraliza o texto */
+    z-index: 1; /* Garante que o texto esteja acima da imagem */
+    pointer-events: none; /* Evita interação com o texto */
+}
 
 @media (max-width: 475px) {
     .brand-logo {
