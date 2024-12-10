@@ -28,6 +28,7 @@
 .navbar-collapse {
     /* Adicione estilos personalizados para o colapso */
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     background-color: transparent !important; 
 }
@@ -41,6 +42,19 @@
 .navbar-toggler i {
     font-size: 1.5rem; /* Ajuste do tamanho */
     
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+    padding: 1rem;
+    width: 100%;
+}
+
+.image {
+    width: 58px; /* Tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+    border-radius: 8px; /* Bordas arredondadas */
 }
 
 
