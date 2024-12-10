@@ -58,7 +58,7 @@ p {
         height: auto; /* Altura adaptável */
         background-size: 125%; /* Ajusta tamanho da imagem para telas menores */
         background-position: calc(100% + 180px) center;
-        padding:0 1rem 1rem 1rem;
+      
         border-radius: 0;
 
     }

@@ -47,8 +47,39 @@
 @media (max-width: 475px) {
     .brand-logo {
         height:1rem; /* Tamanho reduzido para telas menores */
+        margin-left: 1rem;
     }
     .divnav{
         justify-content:flex-start !important;
+        max-width: 100%; /* Remove as restrições de largura do Bootstrap */
+        padding: 0;
+      
     }
-}
+    .navbar-collapse {
+        
+        background-color: #DFBBFE !important;
+      
+
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column; /* Itens em uma coluna (vertical) */
+        gap: 0.5rem; /* Espaçamento menor */
+        list-style: disc; /* Adiciona marcadores */
+        padding: 1rem 0 1rem 3rem;
+
+    }
+
+    .nav-item {
+        margin-bottom: 0.5rem; /* Espaçamento entre os itens */
+       
+    }
+
+    .nav-link {
+        font-size: 1.25rem; /* Tamanho do texto */
+        color: #2D2D2D /* Cor do link */
+        
+    }
+
+
+};

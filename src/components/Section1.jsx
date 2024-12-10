@@ -5,9 +5,9 @@ import scrollImage from '../assets/scroll.png'; // Importação da imagem
 
 const Section1 = () => {
     return (
-        <div className={`container-fluid g-0 ${styles.sectionContainer}`}>
+        <div className={`container-fluid  ${styles.sectionContainer}`}>
             <Navbar />
-            <div className={`container bord1  g-0`}>
+            <div className={`container bord1  `}>
                 <div className={` bord1 ${styles.section1main}  `}>
                     <h1 className={styles.title}>Lorem ipsum dolor sit amet consectetur</h1>
                     <p className={styles.paragraph}>

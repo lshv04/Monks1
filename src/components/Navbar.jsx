@@ -4,8 +4,8 @@ import logo from '../assets/logo.png';
 
 const Navbar = () => {
     return (
-        <nav className={`navbar navbar-expand-lg bord1 ${styles.navbar}`}>
-            <div className={` bord1 container g-0 ${styles.divnav}`}>
+        <nav className={`navbar navbar-expand-lg bord1  ${styles.navbar}`}>
+            <div className={` bord1 container ${styles.divnav}`}>
                 {/* Logo */}
                 <a className={`navbar-brand ${styles['navbar-brand']}`} href="/">
                     <img src={logo} alt="Brand Logo" className={styles['brand-logo']} />
