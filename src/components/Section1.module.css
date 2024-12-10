@@ -3,12 +3,79 @@
     padding: 0; /* Remove o padding padrão */
     margin: 0; /* Remove a margem padrão */
     width: 100%; /* Garante que ocupa toda a largura */
+    background-image: url('../assets/logos-monks (1).png'); /* Caminho da imagem */
+    background-size: 50%; /* Reduz o tamanho da imagem */
+    background-position: calc(100% + 120px) center; /* Ajusta posição da imagem à direita */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+
+    
 }
-
-
 
 .content {
     padding: 1rem; /* Espaçamento interno para o conteúdo */
     font-size: 1.25rem; /* Tamanho da fonte */
     color: #333; /* Cor do texto */
+}
+
+h1 {
+    color: #EAE8E4!important; /* Cor do título */
+    font-size: 3rem; /* Tamanho do título */
+    font-weight: 400; /* Peso do título */
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+p {
+    color: white !important; /* Cor do texto */
+    font-size: 1.5rem; /* Tamanho do parágrafo */
+    line-height: 1.6; /* Altura de linha */
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+.section1main {
+   width: 75%;
+   padding-top:3.75rem ;
+   padding-bottom: 1rem;
+
+}
+.imageContainer {
+    width: 100%; /* Largura completa */
+
+    display: flex; /* Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.image {
+    width: auto; /* Mantém a proporção */
+    height: 100%; /* Ajusta a altura para caber no contêiner */
+    max-height: 100%; /* Garante que a imagem não ultrapasse os limites */
+}
+
+@media (max-width: 475px) {
+    .sectionContainer {
+        height: auto; /* Altura adaptável */
+        background-size: 125%; /* Ajusta tamanho da imagem para telas menores */
+        background-position: calc(100% + 180px) center;
+        padding:0 1rem 1rem 1rem;
+        border-radius: 0;
+
+    }
+    h1 {
+        color: #EAE8E4!important; /* Cor do título */
+        font-size: 1.5rem; /* Tamanho do título */
+        font-weight: 700;
+   
+    }
+    p {
+        font-size: 1rem; /* Tamanho do parágrafo */
+    }
+    .section1main {
+        width:50%;
+        padding-top:1rem ;
+        padding-bottom: 1rem;
+     
+     }
+
 }
