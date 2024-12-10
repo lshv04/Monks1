@@ -10,6 +10,10 @@ const Navbar = () => {
         setIsExpanded(!isExpanded);
     };
 
+    const handleBackClick = () => {
+        setIsExpanded(false); // Fecha o menu colapsado
+    };
+
     return (
         <nav className={`navbar navbar-expand-lg bord1 ${styles.navbar}`}>
             <div className={`bord1 container ${styles.divnav}`}>
@@ -34,8 +38,9 @@ const Navbar = () => {
 
                 {/* Links */}
                 <div
-                    className={`collapse navbar-collapse bord1 mt-2 ${styles['navbar-collapse']} ${isExpanded ? 'show' : ''
-                        }`}
+                    className={`collapse navbar-collapse bord1 mt-2 ${styles['navbar-collapse']} ${
+                        isExpanded ? 'show' : ''
+                    }`}
                     id="navbarNav"
                 >
                     <ul className={`navbar-nav bord1 ${styles['navbar-nav']}`}>
@@ -63,10 +68,13 @@ const Navbar = () => {
                     {/* Exibe a imagem apenas quando o menu está expandido */}
                     {isExpanded && (
                         <div className={`bord1 ${styles.imageContainer}`}>
-                            
-                                <img src={groupImage} alt="Group" className={styles.image} />
-                                <span className={styles.textOverlay}>back</span>
-                            
+                            <img
+                                src={groupImage}
+                                alt="Group"
+                                className={styles.image}
+                                onClick={handleBackClick} // Fecha o menu ao clicar na imagem
+                            />
+                            <span className={styles.textOverlay}>back</span>
                         </div>
                     )}
                 </div>
