@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-lg bord1 ${styles.navbar}`}>
-            <div className={`container bord1 ${styles.divnav}`}>
+            <div className={` bord1 container ${styles.divnav}`}>
                 {/* Logo */}
                 <a className={`navbar-brand ${styles['navbar-brand']}`} href="/">
                     <img src={logo} alt="Brand Logo" className={styles['brand-logo']} />
@@ -13,7 +13,7 @@ const Navbar = () => {
 
                 {/* Botão Toggler */}
                 <button
-                    className="navbar-toggler"
+                    className="navbar-toggler p-0"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
@@ -21,7 +21,7 @@ const Navbar = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <i className="bi bi-list" style={{ fontSize: '2rem', color: 'white' }}></i>
+                    <i className="bi bi-list bord1" style={{ fontSize: '2rem', color: 'white' }}></i>
                 </button>
 
 

@@ -1,20 +1,13 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from 'react';
+import Navbar from './Navbar';
+import styles from './Section1.module.css'; // Importação do CSS Module
 
 const Section1 = () => {
   return (
-    <div className='container-fluid bord g-0'>
+    <div className={`container-fluid g-0 ${styles.sectionContainer} g-0`}>
+        <Navbar/>
+    </div>
+  );
+};
 
-            <div>
-
-            </div>
-            <div>
-            <Navbar/>
-            </div>
-        section1
-        
-        </div>
-  )
-}
-
-export default Section1
+export default Section1;

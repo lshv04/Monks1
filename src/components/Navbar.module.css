@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #2d2d2d; /* Cor de fundo clara */
+   
     display: flex;
     align-items: flex-end;
 }
@@ -15,9 +15,9 @@
     color: #ffffff; /* Cor ao passar o mouse */
 }
 
-.nav-item {
-    margin-right: 1rem; /* Espaçamento entre os itens */
-}
+/* .nav-item {
+    margin-right: 1rem; 
+} */
 
 .brand-logo {
     height: 24px; /* Tamanho do logo */
@@ -39,6 +39,15 @@
 /* Personaliza o botão do menu hambúrguer */
 .navbar-toggler i {
     font-size: 1.5rem; /* Ajuste do tamanho */
-    color: white; /* Define a cor do ícone */
+    
 }
 
+
+@media (max-width: 475px) {
+    .brand-logo {
+        height:1rem; /* Tamanho reduzido para telas menores */
+    }
+    .divnav{
+        justify-content:flex-start !important;
+    }
+}

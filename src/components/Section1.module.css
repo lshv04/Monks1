@@ -1,0 +1,14 @@
+.sectionContainer {
+    background-color: #2d2d2d; /* Cor de fundo clara */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    width: 100%; /* Garante que ocupa toda a largura */
+}
+
+
+
+.content {
+    padding: 1rem; /* Espaçamento interno para o conteúdo */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
