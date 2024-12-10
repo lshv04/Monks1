@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #2d2d2d; /* Cor de fundo clara */
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #EAE8E4; /* Cor do link */
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: #ffffff; /* Cor ao passar o mouse */
+}
+
+.nav-item {
+    margin-right: 1rem; /* Espaçamento entre os itens */
+}
+
+.brand-logo {
+    height: 24px; /* Tamanho do logo */
+    width: auto; /* Mantém a proporção */
+    display: inline-block;
+}
+
+.navbar-collapse {
+    /* Adicione estilos personalizados para o colapso */
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Alinha os links verticalmente */
+    gap: 1rem; /* Espaçamento entre os links */
+}
+/* Personaliza o botão do menu hambúrguer */
+.navbar-toggler i {
+    font-size: 1.5rem; /* Ajuste do tamanho */
+    color: white; /* Define a cor do ícone */
+}
+
