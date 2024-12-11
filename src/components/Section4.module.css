@@ -3,14 +3,6 @@
   margin-top: 4rem;
 }
 
-/* Contêiner interno */
-.innerContainer {
-    
-
-  
- 
-}
-
 /* Estilo para a linha */
 .gridRow {
     max-width: 99%;
@@ -20,13 +12,7 @@
     
 }
 
-/* Coluna maior (esquerda) */
-.leftColumn {
-  
-    
-   
-   
-}
+
 .leftColumn h2 {
     font-size: 2rem; /* Tamanho do título */
     font-weight: 400; /* Título em negrito */
@@ -47,13 +33,7 @@
    
 }
 
-/* Coluna menor (direita) */
-.rightColumn {
-  
-    
-    
-    
-}
+
 
 
 /* Estilo para a coluna direita */
@@ -68,8 +48,7 @@
 /* Estilo para as imagens */
 .image {
     width: 100%; /* Ajusta a largura para caber na coluna */
-  
- 
+
 }
 
 

@@ -3,6 +3,7 @@ import styles from './Section4.module.css'; // Importa a folha de estilo modular
 import image8 from '../assets/Section4/image8.png'; // Importa a primeira imagem
 
 
+
 const Section4 = () => {
     return (
         <section className={` container-fluid ${styles.sectionContainer}`}>
@@ -14,7 +15,6 @@ const Section4 = () => {
                     </div>
                     <div className={`col-12 col-md-4  bord ${styles.rightColumn}`}>
                         <img src={image8} alt="Imagem 8" className={styles.image} />
-                     
                     </div>
                 </div>
             </div>
