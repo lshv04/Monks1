@@ -1,0 +1,34 @@
+/* Card Container */
+.card {
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que o conteúdo se mantenha dentro do card */
+
+}
+
+
+
+/* Imagem do Card */
+.cardImage {
+    height: auto; /* Mantém proporção */
+}
+
+/* Conteúdo do Card */
+.cardContent {
+    padding: 1rem; /* Espaçamento interno */
+}
+
+/* Título do Card */
+.cardTitle {
+    font-size: 1.25rem; /* Tamanho do título */
+    font-weight: bold; /* Negrito */
+    color: #343a40; /* Cor escura */
+    margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+/* Descrição do Card */
+.cardDescription {
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #6c757d; /* Cor cinza */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
