@@ -7,7 +7,8 @@
 .gridColumn{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: flex-end;
+   
    
 }
 
@@ -93,7 +94,7 @@
     
     }
     .gridColumn{
-        gap:1rem
+        margin-top: 2rem;
     }
     .image {
    
@@ -101,4 +102,5 @@
      height: 65%;
       
     }
+  
 }
