@@ -1,9 +1,10 @@
 /* Card Container */
 .card {
-    border: 1px solid #ddd; /* Borda cinza clara */
+   
     border-radius: 8px; /* Bordas arredondadas */
     overflow: hidden; /* Garante que o conteúdo se mantenha dentro do card */
-
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+    padding: 6px 6px 16px 8px;
 }
 
 
@@ -13,22 +14,21 @@
     height: auto; /* Mantém proporção */
 }
 
-/* Conteúdo do Card */
-.cardContent {
-    padding: 1rem; /* Espaçamento interno */
-}
+
+
 
 /* Título do Card */
 .cardTitle {
-    font-size: 1.25rem; /* Tamanho do título */
-    font-weight: bold; /* Negrito */
-    color: #343a40; /* Cor escura */
+    font-size: 1.5rem; /* Tamanho do título */
+    font-weight: 400; /* Negrito */
+    color: #0C111D !important; /* Cor escura */
     margin-bottom: 0.5rem; /* Espaçamento inferior */
+    line-height: 36px;
 }
 
 /* Descrição do Card */
 .cardDescription {
     font-size: 1rem; /* Tamanho da fonte */
-    color: #6c757d; /* Cor cinza */
+    color:#0C111D !important; /* Cor cinza */
     line-height: 1.5; /* Espaçamento entre linhas */
 }

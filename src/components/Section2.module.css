@@ -5,8 +5,7 @@
     margin: 0;
     /* Remove margem padrão */
 
-    border: 1px solid #ddd;
-    /* Borda externa para visualização */
+  
 }
 
 /* Contêiner interno */
@@ -45,7 +44,7 @@
 
    
     /* Borda para visualização */
-    border-radius: 5px;
+    border-radius: 8px;
     /* Bordas arredondadas */
 
     margin-bottom: 1rem;
