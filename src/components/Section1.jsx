@@ -5,7 +5,7 @@ import scrollImage from '../assets/scroll.png'; // Importação da imagem
 
 const Section1 = () => {
     return (
-        <div className={`container-fluid  ${styles.sectionContainer}`}>
+        <header className={`container-fluid  ${styles.sectionContainer}`}>
             <Navbar />
             <div className={`container bord1  `}>
                 <div className={` bord1 ${styles.section1main}  `}>
@@ -19,7 +19,7 @@ const Section1 = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
     );
 };
 
