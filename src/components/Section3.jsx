@@ -8,19 +8,24 @@ const Section3 = () => {
             <div className={`container bord${styles.innerContainer}`}>
                 <div className={`row ${styles.gridRow}`}>
                     <div className={`col-12 col-lg-6 bord ${styles.gridColumn}`}>
-                        <div className={ `bord ${styles.title}`}>
+                        <div className={`bord ${styles.title}`}>
                             <h2>Lorem ipsum dolor sit amet consectetur</h2>
                             <p>Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo</p>
                         </div>
                         <div className={`bord ${styles.image}`}>
-                            
-                        <img src={image5} alt="Description of Image" className={styles.imageContent} />
-                            
+
+                            <img src={image5} alt="Description of Image" className={styles.imageContent} />
+
                         </div>
 
                     </div>
                     <div className={`col-12 col-md-6 bord ${styles.gridColumn}`}>
-                        {/* Conteúdo da Coluna 2 */}
+                        <div className={` bord ${styles.imageContent2}`}>
+
+                        </div>
+                        <div className={` bord ${styles.imageContent2}`}>
+
+                        </div>
                     </div>
                 </div>
             </div>

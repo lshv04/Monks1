@@ -3,10 +3,7 @@
     margin-top: 2rem;
     height: 44.81rem;
 }
-.gridRow{
-   
-    
-}
+
 .gridColumn{
     display: flex;
     flex-direction: column;
@@ -49,13 +46,19 @@
   
 }
 
+
 /* Estilo da imagem */
 .imageContent {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura */
     height: auto; /* Mantém a proporção */
     object-fit: cover;
+    
+ 
 }
 
+.imageContent2{
+    height: 100%;
+}
 
 
 
