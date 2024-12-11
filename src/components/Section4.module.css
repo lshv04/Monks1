@@ -8,21 +8,41 @@
     
 
   
-   height: 150px;
+ 
 }
 
 /* Estilo para a linha */
 .gridRow {
-    max-width: 100%;
+    max-width: 99%;
     background-color: #3C0C60;
     border-radius: 1.5rem;
+    padding:2rem
     
 }
 
 /* Coluna maior (esquerda) */
 .leftColumn {
   
-    height: 150px;
+    
+   
+   
+}
+.leftColumn h2 {
+    font-size: 2rem; /* Tamanho do título */
+    font-weight: 400; /* Título em negrito */
+    color: #EAE8E4; /* Cor do título */
+    margin-bottom: 0.5rem; /* Espaçamento inferior */
+    line-height: 46.92px;
+    
+    
+   
+   
+}
+.leftColumn p {
+  
+    font-size: 1.20rem; /* Tamanho do texto */
+    line-height: 28.27px;; /* Espaçamento entre linhas */
+    color: #EAE8E4; /* Cor do título */
    
    
 }
@@ -30,7 +50,7 @@
 /* Coluna menor (direita) */
 .rightColumn {
   
-    height: 150px;
+    
     
     
 }
