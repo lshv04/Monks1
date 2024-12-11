@@ -1,12 +1,20 @@
 /* Contêiner principal da seção */
 .sectionContainer {
     margin-top: 2rem;
+    height: 44.81rem;
 }
-
+.gridRow{
+   
+    
+}
+.gridColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+}
 /* Colunas */
-.gridColumn {
-    height: 750px;
-}
+
 /* Estilo para o título e parágrafo */
 .title {
     height: 25%;
@@ -28,19 +36,47 @@
 }
 
 /* Estilo para a imagem */
+/* Estilo da div que contém a imagem */
 .image {
+   
+   
     border-radius: 8px; /* Bordas arredondadas */
-    height: 75%; /* Altura fixa para exemplo */
+    height: 75%; /* Altura fixa */
+    width: 100%; /* Largura total */
+    padding: 0;
+  
+}
+
+/* Estilo da imagem */
+.imageContent {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura */
+    height: auto; /* Mantém a proporção */
+    border-radius: 5px; /* Borda arredondada opcional */
+    object-fit: cover;
 }
 
 
 
+
 /* Responsividade */
-/* @media (max-width: 768px) {
-    .gridRow {
-        gap: 16px; 
+@media (max-width: 465px) {
+    .title h2 {
+        font-size: 1.5rem; /* Tamanho do título */
+        line-height: 28.15px;
     }
-    .gridColumn {
-        padding: 0.75rem; 
+    .title p {
+        font-size: 1rem; /* Tamanho do texto */
+        line-height: 18.85px;; /* Espaçamento entre linhas */
+
+    
     }
-} */
+    .gridColumn{
+        gap:1rem
+    }
+    .image {
+   
+   
+     height: 65%;
+      
+    }
+}
