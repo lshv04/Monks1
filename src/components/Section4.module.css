@@ -55,7 +55,51 @@
     
 }
 
+
+/* Estilo para a coluna direita */
+.rightColumn {
+    display: flex; /* Configura como flexbox */
+    flex-direction: column; /* Organiza as imagens em coluna */
+    
+    align-items: center; /* Centraliza as imagens horizontalmente */
+    justify-content: center; /* Centraliza as imagens verticalmente */
+}
+
+/* Estilo para as imagens */
+.image {
+    width: 100%; /* Ajusta a largura para caber na coluna */
+  
+ 
+}
+
+
+
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 465px) {
+
+    .leftColumn h2 {
+      
+        font-size: 1.5rem; /* Tamanho do título */
+    line-height: 28.15px; 
+        
+       
+       
+    }
+    .leftColumn p {
+  
+        font-size: 1rem; /* Tamanho do texto */
+        line-height: 18.85px;; /* Espaçamento entre linhas */
+       
+       
+    }
+    .gridRow {
+        max-width: 99%;
+        background-color: #3C0C60;
+        border-radius: 1rem;
+        padding:1.5rem
+        
+    }
+   
+
 
 }

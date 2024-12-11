@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './Section4.module.css'; // Importa a folha de estilo modular
+import image8 from '../assets/Section4/image8.png'; // Importa a primeira imagem
+
 
 const Section4 = () => {
     return (
@@ -11,7 +13,8 @@ const Section4 = () => {
                         <p>Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra</p>
                     </div>
                     <div className={`col-12 col-md-3  bord ${styles.rightColumn}`}>
-                        {/* Conteúdo para a coluna menor */}
+                        <img src={image8} alt="Imagem 8" className={styles.image} />
+                     
                     </div>
                 </div>
             </div>
