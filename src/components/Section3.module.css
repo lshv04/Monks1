@@ -1,14 +1,15 @@
 /* Contêiner principal da seção */
 .sectionContainer {
     margin-top: 2rem;
-    height: 44.81rem;
+    
+   
 }
 
 .gridColumn{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-   
+    
    
 }
 
@@ -29,9 +30,10 @@
 }
 
 .title p {
-    font-size: 1.5rem; /* Tamanho do texto */
+    font-size: 1.20rem; /* Tamanho do texto */
     line-height: 28.27px;; /* Espaçamento entre linhas */
     color: #2d2d2d !important; /* Cor do parágrafo */
+    
 }
 
 /* Estilo para a imagem */
@@ -66,6 +68,13 @@
 
 
 /* Responsividade */
+
+/* @media (min-width: 821px) {
+  
+ .title p {
+   margin-bottom: 7rem;
+}
+} */
 
 @media (min-width: 465px) and (max-width: 820px) {
     .image {
