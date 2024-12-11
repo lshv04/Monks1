@@ -1,0 +1,26 @@
+/* Contêiner principal da seção */
+.sectionContainer {
+    
+    padding: 2rem 0; /* Espaçamento superior e inferior */
+
+}
+
+
+/* Colunas */
+.gridColumn {
+
+    height: 750px;
+
+}
+
+
+
+/* Responsividade */
+/* @media (max-width: 768px) {
+    .gridRow {
+        gap: 16px; 
+    }
+    .gridColumn {
+        padding: 0.75rem; 
+    }
+} */
