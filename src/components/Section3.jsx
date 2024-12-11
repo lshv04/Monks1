@@ -7,7 +7,16 @@ const Section3 = () => {
             <div className={`container bord${styles.innerContainer}`}>
                 <div className={`row ${styles.gridRow}`}>
                     <div className={`col-12 col-md-6 bord ${styles.gridColumn}`}>
-                        {/* Conteúdo da Coluna 1 */}
+                        <div className={ `bord ${styles.title}`}>
+                            <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo</p>
+                        </div>
+                        <div className={`bord ${styles.image}`}>
+                            
+
+                            
+                        </div>
+
                     </div>
                     <div className={`col-12 col-md-6 bord ${styles.gridColumn}`}>
                         {/* Conteúdo da Coluna 2 */}

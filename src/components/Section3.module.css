@@ -1,16 +1,36 @@
 /* Contêiner principal da seção */
 .sectionContainer {
-    
-    padding: 2rem 0; /* Espaçamento superior e inferior */
-
+    margin-top: 2rem;
 }
-
 
 /* Colunas */
 .gridColumn {
-
     height: 750px;
+}
+/* Estilo para o título e parágrafo */
+.title {
+    height: 25%;
+    margin-bottom: 1rem;
+}
 
+.title h2 {
+    font-size: 2.5rem; /* Tamanho do título */
+    font-weight: 400; /* Título em negrito */
+    color: #2d2d2d; /* Cor do título */
+    margin-bottom: 0.5rem; /* Espaçamento inferior */
+    line-height: 46.92px;
+}
+
+.title p {
+    font-size: 1.5rem; /* Tamanho do texto */
+    line-height: 28.27px;; /* Espaçamento entre linhas */
+    color: #2d2d2d !important; /* Cor do parágrafo */
+}
+
+/* Estilo para a imagem */
+.image {
+    border-radius: 8px; /* Bordas arredondadas */
+    height: 75%; /* Altura fixa para exemplo */
 }
 
 
