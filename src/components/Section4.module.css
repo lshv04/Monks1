@@ -1,6 +1,7 @@
 /* Contêiner principal da seção */
 .sectionContainer {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 /* Estilo para a linha */
