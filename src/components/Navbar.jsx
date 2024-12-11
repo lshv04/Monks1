@@ -15,7 +15,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`navbar navbar-expand-lg bord1 ${styles.navbar}`}>
+        <nav className={`navbar navbar-expand-md bord1 ${styles.navbar}`}>
             <div className={`bord1 container ${styles.divnav}`}>
                 {/* Logo */}
                 <a className={`navbar-brand ${styles['navbar-brand']}`} href="/">

@@ -70,6 +70,11 @@
     pointer-events: none; /* Evita interação com o texto */
 }
 
+
+
+
+
+
 @media (max-width: 475px) {
     .brand-logo {
         height:1rem; /* Tamanho reduzido para telas menores */
