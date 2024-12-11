@@ -3,9 +3,9 @@ import styles from './Section4.module.css'; // Importa a folha de estilo modular
 
 const Section4 = () => {
   return (
-    <section className={`container-fluid ${styles.sectionContainer}`}>
-        <div className={`container ${styles.innerContainer}`}>
-            <div className={`row ${styles.gridRow}`}>
+    <section className={` container-fluid ${styles.sectionContainer}`}>
+        <div className={` container bord ${styles.innerContainer}`}>
+            <div className={`row bord mx-auto ${styles.gridRow}`}>
                 <div className={`col-12 col-md-9 bord ${styles.leftColumn}`}>
                     {/* Conteúdo para a coluna maior */}
                 </div>

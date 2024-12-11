@@ -1,43 +1,41 @@
 /* Contêiner principal da seção */
 .sectionContainer {
-   
+  
 }
 
 /* Contêiner interno */
 .innerContainer {
-   
+    
+
+  
+   height: 150px;
 }
 
 /* Estilo para a linha */
 .gridRow {
-    display: flex;
+    max-width: 100%;
+    background-color: #3C0C60;
+    border-radius: 1.5rem;
     
 }
 
 /* Coluna maior (esquerda) */
 .leftColumn {
+  
     height: 150px;
-    border-radius: 8px; /* Bordas arredondadas */
    
    
 }
 
 /* Coluna menor (direita) */
 .rightColumn {
+  
     height: 150px;
-    border-radius: 8px; /* Bordas arredondadas */
     
     
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
-    .gridRow {
-        flex-direction: column; /* Empilha as colunas verticalmente */
-        gap: 1rem; /* Reduz o espaçamento */
-    }
 
-    .leftColumn, .rightColumn {
-        padding: 0.75rem; /* Reduz o espaçamento interno */
-    }
 }
