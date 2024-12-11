@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Section3.module.css'; // Importa o CSS Module
 import image5 from '../assets/Section3/image5.png'; // Importa a imagem local
+import image6 from '../assets/Section3/image6.png'; // Importa a imagem local
+import image7 from '../assets/Section3/image7.png'; // Importa a imagem local
 
 const Section3 = () => {
     return (
@@ -19,12 +21,12 @@ const Section3 = () => {
                         </div>
 
                     </div>
-                    <div className={`col-12 col-md-6 bord ${styles.gridColumn}`}>
+                    <div className={`col-12 col-lg-6 bord ${styles.gridColumn}`}>
                         <div className={` bord ${styles.imageContent2}`}>
-
+                            <img src={image6} alt="Description of Image" className={styles.imageContent} />
                         </div>
                         <div className={` bord ${styles.imageContent2}`}>
-
+                            <img src={image7} alt="Description of Image" className={styles.imageContent} />
                         </div>
                     </div>
                 </div>

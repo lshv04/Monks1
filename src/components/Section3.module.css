@@ -10,6 +10,7 @@
     gap: 2rem;
    
 }
+
 /* Colunas */
 
 /* Estilo para o título e parágrafo */
@@ -58,6 +59,7 @@
 
 .imageContent2{
     height: 100%;
+    
 }
 
 
@@ -74,6 +76,7 @@
         height: 100%; /* Preenche a altura da div */
         object-fit: cover; /* Faz com que a imagem preencha a div sem distorção */
     }
+ 
 }
 
 
