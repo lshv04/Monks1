@@ -38,7 +38,7 @@ const Section7 = () => {
         if (parseInt(userInput, 10) === sum) {
             const areAllInputsFilled = Object.values(formInputs).every((input) => input.trim() !== '');
             if (areAllInputsFilled) {
-                console.log('Verificação concluída:',formInputs);
+                console.log('Verificação concluída:', formInputs);
                 setMessage('Verificação concluída com sucesso!');
             } else {
                 setMessage('Por favor, preencha todos os campos.');
@@ -49,7 +49,7 @@ const Section7 = () => {
     };
 
     return (
-        <footer className={`container-fluid ${styles.footerContainer}`}>
+        <section className={`container-fluid ${styles.footerContainer}`}>
             <div className={`container bord1 ${styles.innerContainer}`}>
                 <div className={`row ${styles.gridRow}`}>
                     {/* Coluna com imagem */}
@@ -133,20 +133,20 @@ const Section7 = () => {
                                     <div className={`bord row ${styles.checkContainer}`}>
                                         <h4 className='bord col-12 col-md-4 '>Verificação de segurança</h4>
                                         <div className='bord col-12 col-md-8 d-flex align-items-center gap-3'>
-                                        <span className={`bord  ${styles.combinedNumbers}`}>
-                                            <span className={styles.numberBox}>{num1}</span>
-                                            <span className={styles.operator}>+</span>
-                                            <span className={styles.numberBox}>{num2}</span>
-                                        </span>
-                                        <span className={styles.operator}>=</span>
-                                    
-                                        <input
-                                            type="number"
-                                            className={`form-control  ${styles.inputFieldValidation}`}
-                                            placeholder="Resultado*"
-                                            value={userInput}
-                                            onChange={(e) => setUserInput(e.target.value)}
-                                        />
+                                            <span className={`bord  ${styles.combinedNumbers}`}>
+                                                <span className={styles.numberBox}>{num1}</span>
+                                                <span className={styles.operator}>+</span>
+                                                <span className={styles.numberBox}>{num2}</span>
+                                            </span>
+                                            <span className={styles.operator}>=</span>
+
+                                            <input
+                                                type="number"
+                                                className={`form-control  ${styles.inputFieldValidation}`}
+                                                placeholder="Resultado*"
+                                                value={userInput}
+                                                onChange={(e) => setUserInput(e.target.value)}
+                                            />
                                         </div>
                                     </div>
                                     <button
@@ -158,12 +158,13 @@ const Section7 = () => {
                                 </div>
                                 {message && <p className={`text-center ${styles.message}`}>{message}</p>}
                             </form>
-                       
+
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+
+        </section>
     );
 };
 
