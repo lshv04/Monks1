@@ -56,7 +56,7 @@
 /* Contêiner da verificação de segurança */
 .securityCheck {
     margin-top: 1rem;
-    background-color: #f4f3f1;
+  
     border-radius: 12px;
     text-align: center;
 }
@@ -70,6 +70,8 @@
 }
 .combinedNumbers {
     background: #DFDCD5;
+    border-radius: 8px;
+    padding:0 24px;
     display: inline-flex; /* Exibe os itens em linha */
     align-items: center; /* Alinha os itens verticalmente */
     gap: 0.25rem; /* Espaçamento entre os itens */
@@ -85,7 +87,7 @@
 
 /* Estilo dos números */
 .numberBox {
-    color: #7e00ff; /* Cor roxa */
+    color: #7D26C9; /* Cor roxa */
     font-weight: bold;
     padding: 0.2rem 0.5rem; /* Ajusta o espaçamento interno */
     border-radius: 4px; /* Bordas arredondadas */
@@ -108,11 +110,13 @@
 
 /* Botão */
 .validateBtn {
-    background-color: #c9a6f4;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
+    margin: 1rem 0;
+    background-color: #DFBBFE;
+    color: #2D2D2D;
+    padding: 8px 40px;
+    border-radius: 4px;
     border: none;
+    opacity: 50%;
     cursor: pointer;
     transition: all 0.3s ease;
 }

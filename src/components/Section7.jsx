@@ -10,8 +10,8 @@ const Section7 = () => {
 
     // Gera dois números aleatórios sempre que o componente for carregado
     useEffect(() => {
-        const randomNum1 = Math.floor(Math.random() * 1000);
-        const randomNum2 = Math.floor(Math.random() * 1000);
+        const randomNum1 = Math.floor(Math.random() * 999);
+        const randomNum2 = Math.floor(Math.random() * 999);
         setNum1(randomNum1);
         setNum2(randomNum2);
     }, []);
@@ -116,7 +116,7 @@ const Section7 = () => {
                                     className={`btn ${styles.validateBtn}`}
                                     onClick={handleValidation}
                                 >
-                                    Validar
+                                    Lorem ipsum 
                                 </button>
                                 {message && <p className={styles.message}>{message}</p>}
                             </div>
