@@ -161,4 +161,12 @@
    .gridRow{
     gap:2rem;
    }
+   .formTitle h2{
+    font-size: 1.5rem;
+    line-height: 28.15px;
+}
+.formTitle p{
+    font-size: 1rem;
+    line-height: 24px;
+}
 }
