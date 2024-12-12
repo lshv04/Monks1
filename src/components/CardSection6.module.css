@@ -1,3 +1,9 @@
+.cardContainer{
+    border-radius: 16px;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.1);
+
+}
+
 .cardTitle{
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -13,7 +19,6 @@
 .customBtn {
     background-color: #DFBBFE; /* Cor de fundo */
     color:#2D2D2D;
-    border: none; /* Remove a borda */
     padding: 8px 40px; /* Espaçamento interno */
     border-radius: 4px; /* Bordas arredondadas */
     font-weight: 600; /* Fonte em negrito */

@@ -4,7 +4,7 @@ import styles from './CardSection6.module.css'; // Caminho para a folha de estil
 
 const CardSection6 = () => {
     return (
-        <div className={`card shadow-sm ${styles.cardContainer}`} style={{ borderRadius: '16px' }}>
+        <div className={`card ${styles.cardContainer}`} >
             <div className={`card-body ${styles.cardBody}`}>
                 {/* Título do Card */}
                 <h5 className={`card-title ${styles.cardTitle}`}>
