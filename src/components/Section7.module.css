@@ -3,6 +3,7 @@
     background-color: #2d2d2d; /* Fundo escuro */
     color: #fff; /* Texto branco */
     padding: 2rem 0; /* Espaçamento superior e inferior */
+    margin-top:2rem;
 }
 
 /* Contêiner interno */
@@ -12,8 +13,7 @@
 
 /* Estilo para a grade */
 .gridRow {
-    display: flex;
-    flex-wrap: wrap; /* Permite quebra de linha */
+
    
 }
 
@@ -35,8 +35,25 @@
     height: 100%;
     background-color: #EAE8E4;
     border-radius: 24px;
-    padding: 1.5rem;
-
+    padding: 1rem;
+}
+.formTitle h2{
+    color:#2D2D2D;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 46.92px;
+}
+.formTitle p{
+    color:#2D2D2D !important;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+.formTitle small{
+    color:#2D2D2D !important;
+    line-height: 18.85px;
+    font-weight: 400;
+    font-size: 1rem;
 
 }
 /* Responsividade */

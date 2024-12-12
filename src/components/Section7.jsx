@@ -16,6 +16,13 @@ const Section7 = () => {
                     </div>
                     <div className={`col-12 col-md-8 bord1 ${styles.gridColumn}`}>
                         <div className={`bord1 ${styles.form}`}>
+                            <div className={`bord ${styles.formTitle}`}>
+                                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque</p>
+                                <small>*Lorem ipsum dolor sit amet consectetur</small>
+                            </div>
+
+
 
                         </div>
                     </div>
