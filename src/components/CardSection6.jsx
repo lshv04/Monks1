@@ -1,19 +1,18 @@
-import React from 'react'
+import React from 'react';
 import styles from './CardSection6.module.css'; // Caminho para a folha de estilo
 
-
-const CardSection6 = () => {
+const CardSection6 = ({ title, text }) => {
     return (
-        <div className={`card ${styles.cardContainer}`} >
+        <div className={`card ${styles.cardContainer}`}>
             <div className={`card-body ${styles.cardBody}`}>
                 {/* Título do Card */}
                 <h5 className={`card-title ${styles.cardTitle}`}>
-                    Lorem ipsum dolor sit amet
+                    {title}
                 </h5>
 
                 {/* Texto do Card */}
                 <p className={`card-text ${styles.cardText}`}>
-                    Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra.
+                    {text}
                 </p>
 
                 {/* Botão do Card */}
@@ -24,7 +23,7 @@ const CardSection6 = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default CardSection6
+export default CardSection6;

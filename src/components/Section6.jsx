@@ -8,13 +8,22 @@ const Section6 = () => {
             <div className={`container bord ${styles.innerContainer}`}>
                 <div className={`row ${styles.gridRow}`}>
                     <div className={`col-12 col-md-4 bord ${styles.gridColumn}`}>
-                       <CardSection6/>
+                        <CardSection6
+                            title="Lorem ipsum dolor sit amet"
+                            text="Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra."
+                        />
                     </div>
                     <div className={`col-12 col-md-4 bord ${styles.gridColumn}`}>
-
+                        <CardSection6
+                            title="Lorem ipsum dolor sit amet"
+                            text="Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra."
+                        />
                     </div>
                     <div className={`col-12 col-md-4 bord ${styles.gridColumn}`}>
-
+                        <CardSection6
+                            title="Lorem ipsum dolor sit amet"
+                            text="Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus sit scelerisque quis commodo aenean viverra."
+                        />
                     </div>
                 </div>
             </div>
