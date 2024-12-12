@@ -12,7 +12,11 @@
     padding:2rem
     
 }
-
+.leftColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .leftColumn h2 {
     font-size: 2rem; /* Tamanho do título */
