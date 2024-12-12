@@ -1,0 +1,52 @@
+/* Contêiner principal do footer */
+
+.line{
+    height: 1px; /* Espessura da linha */
+    background-color: #ddd; /* Cor da linha */
+    
+    width: 95%; /* Ocupa toda a largura da tela */
+}
+.footerContainer {
+    background-color: #2d2d2d; /* Cor de fundo do footer */
+    color: #eaeaea; /* Cor do texto */
+     /* Espaçamento interno no eixo vertical */
+    
+
+}
+
+/* Estilo interno do footer */
+.innerContainer {
+    
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    gap: 1rem; /* Espaçamento entre os itens */
+    padding: 2rem 0;
+}
+
+.linkContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+
+/* Estilo para o texto */
+.text {
+    font-size: 1rem; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para links no footer */
+.link {
+    color: #eaeaea; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 500; /* Peso da fonte */
+}
+
+.link:hover {
+    color: #dfbbfe; /* Cor ao passar o mouse */
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
