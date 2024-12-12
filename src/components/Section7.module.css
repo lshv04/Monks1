@@ -7,16 +7,7 @@
     padding-bottom: 3rem;
 }
 
-/* Contêiner interno */
-.innerContainer {
-  
-}
 
-/* Estilo para a grade */
-.gridRow {
-
-   
-}
 
 /* Colunas */
 .gridColumn {
@@ -77,11 +68,7 @@
     gap: 0.25rem; /* Espaçamento entre os itens */
     font-size: 1.25rem; /* Ajusta o tamanho geral */
 }
-/* Contêiner interno */
-.checkContainer {
-   
-    
-}
+
 
 /* Estilo dos números */
 .numberBox {
@@ -109,6 +96,7 @@
 
 /* Botão */
 .validateBtn {
+    font-family: 'Inter', sans-serif;
     margin: 1rem 0;
     background-color: #DFBBFE;
     color: #2D2D2D;
@@ -157,7 +145,7 @@
     font-size: 1rem;
 
 }
-/* Responsividade */
+
 @media (max-width: 468px) {
    .gridRow{
     gap:2rem;
