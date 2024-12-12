@@ -19,7 +19,8 @@
 
 /* Colunas */
 .gridColumn {
-    
+    display: flex;
+    align-items: center;
    
     
 }
@@ -44,7 +45,7 @@
     padding: 6px 10px; /* Espaçamento interno */
     font-size: 1rem; /* Tamanho do texto */
     color: #666; /* Cor do texto */
-    width: 35%;
+    
 }
 /* Foco no input */
 .inputField:focus {
@@ -79,10 +80,8 @@
 }
 /* Contêiner interno */
 .checkContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
+   
+    
 }
 
 /* Estilo dos números */

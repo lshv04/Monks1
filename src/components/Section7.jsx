@@ -129,15 +129,18 @@ const Section7 = () => {
                                 </div>
 
                                 {/* Verificação de segurança */}
-                                <div className={`bord ${styles.securityCheck}`}>
-                                    <div className={`bord ${styles.checkContainer}`}>
-                                        <h4 className='bord'>Verificação de segurança</h4>
-                                        <span className={`bord ${styles.combinedNumbers}`}>
+                                <div className={`bord container ${styles.securityCheck}`}>
+                                    <div className={`bord row ${styles.checkContainer}`}>
+                                        <h4 className='bord col-12 col-md-4 '>Verificação de segurança</h4>
+                                        <div className='bord col-12 col-md-4 d-flex align-items-center gap-3'>
+                                        <span className={`bord  ${styles.combinedNumbers}`}>
                                             <span className={styles.numberBox}>{num1}</span>
                                             <span className={styles.operator}>+</span>
                                             <span className={styles.numberBox}>{num2}</span>
                                         </span>
                                         <span className={styles.operator}>=</span>
+                                        </div>
+                                        <div className='bord col-12 col-md-4 d-flex align-items-center'>
                                         <input
                                             type="number"
                                             className={`form-control  ${styles.inputFieldValidation}`}
@@ -145,6 +148,7 @@ const Section7 = () => {
                                             value={userInput}
                                             onChange={(e) => setUserInput(e.target.value)}
                                         />
+                                        </div>
                                     </div>
                                     <button
                                         type="submit"
@@ -153,8 +157,9 @@ const Section7 = () => {
                                         Lorem ipsum
                                     </button>
                                 </div>
+                                {message && <p className={`text-center ${styles.message}`}>{message}</p>}
                             </form>
-                            {message && <p className={`text-center ${styles.message}`}>{message}</p>}
+                       
                         </div>
                     </div>
                 </div>
