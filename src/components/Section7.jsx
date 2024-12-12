@@ -17,7 +17,8 @@ const Section7 = () => {
     }, []);
 
     // Valida o input do usuário
-    const handleValidation = () => {
+    const handleValidation = (e) => {
+        e.preventDefault(); // Previne o comportamento padrão de recarregar a página
         const sum = num1 + num2;
         if (parseInt(userInput, 10) === sum) {
             setMessage('Verificação concluída com sucesso!');
@@ -48,7 +49,10 @@ const Section7 = () => {
                                 <small>*Lorem ipsum dolor sit amet consectetur</small>
                             </div>
 
-                            <form className={`container bord ${styles.formContainer}`}>
+                            <form
+                                className={`container bord ${styles.formContainer}`}
+                                onSubmit={handleValidation} // Adicionado evento onSubmit
+                            >
                                 <div className="row g-3">
                                     {/* Primeiro input */}
                                     <div className="col-12 col-md-6">
@@ -90,36 +94,34 @@ const Section7 = () => {
                                         />
                                     </div>
                                 </div>
-                            </form>
 
-                            {/* Verificação de segurança */}
-                            <div className={`bord ${styles.securityCheck}`}>
-
-                                <div className={`bord ${styles.checkContainer}`}>
-                                    <h4 className='bord'>Verificação de segurança</h4>
-                                    <span className={`bord ${styles.combinedNumbers}`}>
-                                        <span className={styles.numberBox}>{num1}</span>
-                                        <span className={styles.operator}>+</span>
-                                        <span className={styles.numberBox}>{num2}</span>
-                                    </span>
-                                    <span className={styles.operator}>=</span>
-                                    <input
-                                        type="number"
-                                        className={`form-control  ${styles.inputFieldValidation}`}
-                                        placeholder="Resultado*"
-                                        value={userInput}
-                                        onChange={(e) => setUserInput(e.target.value)}
-                                    />
-
+                                {/* Verificação de segurança */}
+                                <div className={`bord ${styles.securityCheck}`}>
+                                    <div className={`bord ${styles.checkContainer}`}>
+                                        <h4 className='bord'>Verificação de segurança</h4>
+                                        <span className={`bord ${styles.combinedNumbers}`}>
+                                            <span className={styles.numberBox}>{num1}</span>
+                                            <span className={styles.operator}>+</span>
+                                            <span className={styles.numberBox}>{num2}</span>
+                                        </span>
+                                        <span className={styles.operator}>=</span>
+                                        <input
+                                            type="number"
+                                            className={`form-control  ${styles.inputFieldValidation}`}
+                                            placeholder="Resultado*"
+                                            value={userInput}
+                                            onChange={(e) => setUserInput(e.target.value)}
+                                        />
+                                    </div>
+                                    <button
+                                        type="submit" // Adicionado type submit para o botão
+                                        className={`btn ${styles.validateBtn}`}
+                                    >
+                                        Lorem ipsum
+                                    </button>
                                 </div>
-                                <button
-                                    className={`btn ${styles.validateBtn}`}
-                                    onClick={handleValidation}
-                                >
-                                    Lorem ipsum 
-                                </button>
-                                {message && <p className={styles.message}>{message}</p>}
-                            </div>
+                            </form>
+                            {message && <p className={`text-center ${styles.message}`}>{message}</p>}
                         </div>
                     </div>
                 </div>
