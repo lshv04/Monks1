@@ -7,6 +7,12 @@ const Section7 = () => {
     const [num2, setNum2] = useState(0);
     const [userInput, setUserInput] = useState('');
     const [message, setMessage] = useState('');
+    const [formInputs, setFormInputs] = useState({
+        input1: '',
+        input2: '',
+        input3: '',
+        input4: '',
+    });
 
     // Gera dois números aleatórios sempre que o componente for carregado
     useEffect(() => {
@@ -16,12 +22,27 @@ const Section7 = () => {
         setNum2(randomNum2);
     }, []);
 
+    // Atualiza os valores dos inputs
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormInputs((prevInputs) => ({
+            ...prevInputs,
+            [name]: value,
+        }));
+    };
+
     // Valida o input do usuário
     const handleValidation = (e) => {
         e.preventDefault(); // Previne o comportamento padrão de recarregar a página
         const sum = num1 + num2;
         if (parseInt(userInput, 10) === sum) {
-            setMessage('Verificação concluída com sucesso!');
+            const areAllInputsFilled = Object.values(formInputs).every((input) => input.trim() !== '');
+            if (areAllInputsFilled) {
+                console.log('Verificação concluída:',formInputs);
+                setMessage('Verificação concluída com sucesso!');
+            } else {
+                setMessage('Por favor, preencha todos os campos.');
+            }
         } else {
             setMessage('Erro! Tente novamente.');
         }
@@ -51,13 +72,16 @@ const Section7 = () => {
 
                             <form
                                 className={`container bord ${styles.formContainer}`}
-                                onSubmit={handleValidation} // Adicionado evento onSubmit
+                                onSubmit={handleValidation}
                             >
                                 <div className="row g-3">
                                     {/* Primeiro input */}
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
+                                            name="input1"
+                                            value={formInputs.input1}
+                                            onChange={handleInputChange}
                                             className={`form-control ${styles.inputField}`}
                                             placeholder="Categoria*"
                                             aria-label="Categoria"
@@ -68,6 +92,9 @@ const Section7 = () => {
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
+                                            name="input2"
+                                            value={formInputs.input2}
+                                            onChange={handleInputChange}
                                             className={`form-control ${styles.inputField}`}
                                             placeholder="Categoria*"
                                             aria-label="Categoria"
@@ -78,6 +105,9 @@ const Section7 = () => {
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
+                                            name="input3"
+                                            value={formInputs.input3}
+                                            onChange={handleInputChange}
                                             className={`form-control ${styles.inputField}`}
                                             placeholder="Categoria"
                                             aria-label="Categoria"
@@ -88,6 +118,9 @@ const Section7 = () => {
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
+                                            name="input4"
+                                            value={formInputs.input4}
+                                            onChange={handleInputChange}
                                             className={`form-control ${styles.inputField}`}
                                             placeholder="Categoria"
                                             aria-label="Categoria"
@@ -114,7 +147,7 @@ const Section7 = () => {
                                         />
                                     </div>
                                     <button
-                                        type="submit" // Adicionado type submit para o botão
+                                        type="submit"
                                         className={`btn ${styles.validateBtn}`}
                                     >
                                         Lorem ipsum
