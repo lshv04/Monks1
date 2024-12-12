@@ -19,13 +19,17 @@
 
 /* Colunas */
 .gridColumn {
-    background-color: #3c3c3c; /* Fundo cinza escuro */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    color: #fff; /* Texto branco */
-    text-align: center; /* Centraliza o conteúdo */
-    height: 250px;
+    
+   
+    
+}
+
+.image {
+    width: 100%; /* Faz a imagem preencher a largura da coluna */
+    height: auto; /* Mantém a proporção */
+    padding: 1rem;
+    object-fit: cover; /* Garante que a imagem seja cortada corretamente, se necessário */
+   
 }
 
 /* Responsividade */
