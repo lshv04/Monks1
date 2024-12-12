@@ -94,12 +94,14 @@ const Section7 = () => {
 
                             {/* Verificação de segurança */}
                             <div className={`bord ${styles.securityCheck}`}>
-                                
+
                                 <div className={`bord ${styles.checkContainer}`}>
-                                <h4 className='bord'>Verificação de segurança</h4>
-                                    <span className={styles.numberBox}>{num1}</span>
-                                    <span className={styles.operator}>+</span>
-                                    <span className={styles.numberBox}>{num2}</span>
+                                    <h4 className='bord'>Verificação de segurança</h4>
+                                    <span className={`bord ${styles.combinedNumbers}`}>
+                                        <span className={styles.numberBox}>{num1}</span>
+                                        <span className={styles.operator}>+</span>
+                                        <span className={styles.numberBox}>{num2}</span>
+                                    </span>
                                     <span className={styles.operator}>=</span>
                                     <input
                                         type="number"
@@ -108,14 +110,14 @@ const Section7 = () => {
                                         value={userInput}
                                         onChange={(e) => setUserInput(e.target.value)}
                                     />
-                                 
+
                                 </div>
                                 <button
-                                        className={`btn ${styles.validateBtn}`}
-                                        onClick={handleValidation}
-                                    >
-                                        Validar
-                                    </button>
+                                    className={`btn ${styles.validateBtn}`}
+                                    onClick={handleValidation}
+                                >
+                                    Validar
+                                </button>
                                 {message && <p className={styles.message}>{message}</p>}
                             </div>
                         </div>
