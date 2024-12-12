@@ -20,7 +20,7 @@ const Section7 = () => {
     const handleValidation = () => {
         const sum = num1 + num2;
         if (parseInt(userInput, 10) === sum) {
-            setMessage('Acerto! Parabéns!');
+            setMessage('Verificação concluída com sucesso!');
         } else {
             setMessage('Erro! Tente novamente.');
         }
