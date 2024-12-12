@@ -24,6 +24,91 @@
     
 }
 
+/* Contêiner do formulário */
+.formContainer {
+    padding: 2rem 0; /* Espaçamento interno */
+   
+}
+
+/* Estilo dos campos de input */
+.inputField {
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px;
+    padding: 6px 10px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
+}
+
+/* Foco no input */
+.inputField:focus {
+    outline: none; /* Remove o contorno azul */
+    border-color: #c9a6f4; /* Cor da borda ao focar */
+    box-shadow: 0 0 4px rgba(201, 166, 244, 0.6); /* Sombra leve */
+}
+
+/* Contêiner da verificação de segurança */
+.securityCheck {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f4f3f1;
+    border-radius: 12px;
+    text-align: center;
+}
+.securityCheck h4{
+    color: #2d2d2d;
+    font-weight: 400;
+    font-family: 1.5rem;
+    line-height: 36px;
+}
+
+/* Contêiner interno */
+.checkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* Estilo dos números */
+.numberBox {
+    background-color: #ff85ff;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* Operadores */
+.operator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Mensagens */
+.message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #2d2d2d;
+}
+
+/* Botão */
+.validateBtn {
+    background-color: #c9a6f4;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.validateBtn:hover {
+    background-color: #a783c4;
+}
+
+
 .image {
     width: 100%; /* Faz a imagem preencher a largura da coluna */
     height: auto; /* Mantém a proporção */
