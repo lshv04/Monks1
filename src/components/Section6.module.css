@@ -1,0 +1,29 @@
+/* Contêiner principal da seção */
+
+
+/* Contêiner interno */
+.innerContainer {
+
+}
+
+/* Estilo para as linhas */
+.gridRow {
+
+}
+
+/* Estilo para as colunas */
+.gridColumn {
+
+  
+
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .gridRow {
+       
+        gap: 1rem; /* Espaçamento menor */
+    }
+
+  
+}
