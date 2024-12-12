@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css'; // Caminho para o CSS Module
+import SocialIcons from './SocialIcons';
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
              <div className={`container-fluid  ${styles.line}`}></div>
             <div className={`container bord1 ${styles.innerContainer}`}>
                     <div className='bord1'>
-                        iiii iiii iiii iiii
+                        <SocialIcons/>
                     </div>
                     <p className={styles.text}>Lorem ipsum dolor sit amet</p>
                 <div className={` bord1 ${styles.linkContainer}`}>

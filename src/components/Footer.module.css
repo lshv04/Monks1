@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column; /* Alinha os elementos verticalmente */
     align-items: center; /* Centraliza os elementos horizontalmente */
-    gap: 1rem; /* Espaçamento entre os itens */
+  
     padding: 2rem 0;
 }
 
@@ -29,24 +29,40 @@
     flex-wrap:wrap;
     justify-content: center;
     gap: 1rem;
+    margin-top: 1rem;
    
 }
 
 /* Estilo para o texto */
 .text {
-    font-size: 1rem; /* Tamanho da fonte */
-    line-height: 1.5; /* Altura da linha */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    line-height: 36px; /* Altura da linha */
     text-align: center; /* Centraliza o texto */
+    color:#EAE8E4;
 }
 
 /* Estilo para links no footer */
 .link {
-    color: #eaeaea; /* Cor do link */
+    color: #EAE8E4; /* Cor do link */
     text-decoration: none; /* Remove sublinhado */
     font-weight: 500; /* Peso da fonte */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    line-height: 23.56px; /* Altura da linha */
 }
 
 .link:hover {
-    color: #dfbbfe; /* Cor ao passar o mouse */
-    text-decoration: underline; /* Sublinha ao passar o mouse */
+
+    text-decoration: none; /* Sublinha ao passar o mouse */
 }
+@media (max-width: 468px) {
+    .link {
+        color: #EAE8E4; /* Cor do link */
+        text-decoration: none; /* Remove sublinhado */
+        font-weight: 400; /* Peso da fonte */
+        font-size: 1rem; /* Tamanho da fonte */
+        line-height: 18.85px; /* Altura da linha */
+    }
+    .text {
+      margin-top: 1rem;
+    }
+ }
