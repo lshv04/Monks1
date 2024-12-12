@@ -1,0 +1,26 @@
+.cardTitle{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #2D2D2D !important;
+}
+.cardText{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #2D2D2D !important;
+}
+.customBtn {
+    background-color: #DFBBFE; /* Cor de fundo */
+    color:#2D2D2D;
+    border: none; /* Remove a borda */
+    padding: 8px 40px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-weight: 600; /* Fonte em negrito */
+    transition: all 0.3s ease; /* Animação para hover */
+}
+
+.customBtn:hover {
+    background-color: #c9a6f4; /* Cor ao passar o mouse */
+    
+}
