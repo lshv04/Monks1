@@ -15,7 +15,9 @@ const Section7 = () => {
                         />
                     </div>
                     <div className={`col-12 col-md-8 bord1 ${styles.gridColumn}`}>
-                        {/* Conteúdo da segunda coluna */}
+                        <div className={`bord1 ${styles.form}`}>
+
+                        </div>
                     </div>
                 </div>
             </div>
