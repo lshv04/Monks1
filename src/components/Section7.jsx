@@ -94,26 +94,28 @@ const Section7 = () => {
 
                             {/* Verificação de segurança */}
                             <div className={`bord ${styles.securityCheck}`}>
-                                <h4>Verificação de segurança</h4>
-                                <div className={styles.checkContainer}>
+                                
+                                <div className={`bord ${styles.checkContainer}`}>
+                                <h4 className='bord'>Verificação de segurança</h4>
                                     <span className={styles.numberBox}>{num1}</span>
                                     <span className={styles.operator}>+</span>
                                     <span className={styles.numberBox}>{num2}</span>
                                     <span className={styles.operator}>=</span>
                                     <input
                                         type="number"
-                                        className={`form-control ${styles.inputField}`}
+                                        className={`form-control  ${styles.inputFieldValidation}`}
                                         placeholder="Resultado*"
                                         value={userInput}
                                         onChange={(e) => setUserInput(e.target.value)}
                                     />
-                                    <button
+                                 
+                                </div>
+                                <button
                                         className={`btn ${styles.validateBtn}`}
                                         onClick={handleValidation}
                                     >
                                         Validar
                                     </button>
-                                </div>
                                 {message && <p className={styles.message}>{message}</p>}
                             </div>
                         </div>

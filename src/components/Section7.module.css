@@ -38,7 +38,14 @@
     font-size: 1rem; /* Tamanho do texto */
     color: #666; /* Cor do texto */
 }
-
+.inputFieldValidation{
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px;
+    padding: 6px 10px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
+    width: 20%;
+}
 /* Foco no input */
 .inputField:focus {
     outline: none; /* Remove o contorno azul */
@@ -49,7 +56,6 @@
 /* Contêiner da verificação de segurança */
 .securityCheck {
     margin-top: 1rem;
-    padding: 1rem;
     background-color: #f4f3f1;
     border-radius: 12px;
     text-align: center;
@@ -59,13 +65,15 @@
     font-weight: 400;
     font-family: 1.5rem;
     line-height: 36px;
+    margin: 0;
+   
 }
 
 /* Contêiner interno */
 .checkContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 0.5rem;
 }
 
