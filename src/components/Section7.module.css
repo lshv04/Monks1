@@ -21,8 +21,6 @@
 .gridColumn {
     display: flex;
     align-items: center;
-   
-    
 }
 
 /* Contêiner do formulário */
@@ -159,6 +157,8 @@
 
 }
 /* Responsividade */
-@media (max-width: 768px) {
- 
+@media (max-width: 468px) {
+   .gridRow{
+    gap:2rem;
+   }
 }
