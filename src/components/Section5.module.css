@@ -1,5 +1,7 @@
 
-  
+  .innerContainer{
+    margin-bottom: 4rem;
+  }
   /* Estilo para o título */
   .innerContainer h2 {
     font-size: 2.5rem; /* Tamanho do título */
@@ -9,6 +11,7 @@
     line-height: 46.92px;
    
   }
+
   .buttonContainer{
     display: flex;
     justify-content: center;
