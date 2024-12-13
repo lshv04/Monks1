@@ -31,6 +31,8 @@
     flex-direction: column;
     align-items: flex-start;
     background-color: transparent !important; 
+    transition: height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden; 
 }
 
 .navbar-nav {
