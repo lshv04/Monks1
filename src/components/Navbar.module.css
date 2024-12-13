@@ -108,9 +108,9 @@
 
     .nav-link {
         font-size: 1.25rem; /* Tamanho do texto */
-        color: #2D2D2D /* Cor do link */
+        color: #2D2D2D; /* Cor do link */
         
     }
 
 
-};
+}
