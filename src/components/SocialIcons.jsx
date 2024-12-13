@@ -3,7 +3,7 @@ import React from 'react';
 const SocialIcons = () => {
   return (
     <div className="d-flex justify-content-center align-items-center gap-5">
-      {/* Instagram Icon */}
+
       <a
         href="https://instagram.com"
         target="_blank"
@@ -14,7 +14,7 @@ const SocialIcons = () => {
         <i className="bi bi-instagram" style={{ fontSize: '1.5rem' }}></i>
       </a>
 
-      {/* WhatsApp Icon */}
+
       <a
         href="https://whatsapp.com"
         target="_blank"
@@ -25,7 +25,7 @@ const SocialIcons = () => {
         <i className="bi bi-whatsapp" style={{ fontSize: '1.5rem' }}></i>
       </a>
 
-      {/* Twitter Icon */}
+
       <a
         href="https://twitter.com"
         target="_blank"
@@ -36,7 +36,7 @@ const SocialIcons = () => {
         <i className="bi bi-twitter" style={{ fontSize: '1.5rem' }}></i>
       </a>
 
-      {/* Facebook Icon */}
+
       <a
         href="https://facebook.com"
         target="_blank"

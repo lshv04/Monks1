@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 import logo from '../assets/logo.png';
-import groupImage from '../assets/Group.png'; // Importa a imagem
+import groupImage from '../assets/Group.png';
 
 const Navbar = () => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -11,18 +11,18 @@ const Navbar = () => {
     };
 
     const handleBackClick = () => {
-        setIsExpanded(false); // Fecha o menu colapsado
+        setIsExpanded(false); // Fecha o menu hamburguer
     };
 
     return (
         <nav className={`navbar navbar-expand-md bord1 ${styles.navbar}`}>
             <div className={`bord1 container ${styles.divnav}`}>
-                {/* Logo */}
+
                 <a className={`navbar-brand ${styles['navbar-brand']}`} href="/">
                     <img src={logo} alt="Brand Logo" className={styles['brand-logo']} />
                 </a>
 
-                {/* Botão Toggler */}
+
                 <button
                     className="navbar-toggler p-0"
                     type="button"
@@ -36,11 +36,10 @@ const Navbar = () => {
                     <i className="bi bi-list bord1" style={{ fontSize: '2rem', color: 'white' }}></i>
                 </button>
 
-                {/* Links */}
+
                 <div
-                    className={`collapse navbar-collapse bord1 mt-2 ${styles['navbar-collapse']} ${
-                        isExpanded ? 'show' : ''
-                    }`}
+                    className={`collapse navbar-collapse bord1 mt-2 ${styles['navbar-collapse']} ${isExpanded ? 'show' : ''
+                        }`}
                     id="navbarNav"
                 >
                     <ul className={`navbar-nav bord1 ${styles['navbar-nav']}`}>
@@ -65,7 +64,7 @@ const Navbar = () => {
                             </a>
                         </li>
                     </ul>
-                    {/* Exibe a imagem apenas quando o menu está expandido */}
+                    {/* Exibe a imagem apenas quando o menu hamburguer está ativado */}
                     {isExpanded && (
                         <div className={`bord1 ${styles.imageContainer}`}>
                             <img

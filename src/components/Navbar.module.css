@@ -7,29 +7,26 @@
 .nav-link {
     font-size: 1.25rem;
     font-weight: 400;
-    color: #EAE8E4; /* Cor do link */
+    color: #EAE8E4; 
     padding: 0;
 }
 
 .nav-link:visited {
-    color: #EAE8E4; /* Garante que a cor não muda */
+    color: #EAE8E4; 
 }
 .nav-link:hover {
-    color: #ffffff; /* Cor ao passar o mouse */
+    color: #ffffff; 
 }
 
-/* .nav-item {
-    margin-right: 1rem; 
-} */
 
 .brand-logo {
-    height: 24px; /* Tamanho do logo */
-    width: auto; /* Mantém a proporção */
+    height: 24px; 
+    width: auto; 
     display: inline-block;
 }
 
 .navbar-collapse {
-    /* Adicione estilos personalizados para o colapso */
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -38,39 +35,39 @@
 
 .navbar-nav {
     display: flex;
-    align-items: center; /* Alinha os links verticalmente */
-    gap: 1rem; /* Espaçamento entre os links */
+    align-items: center; 
+    gap: 1rem; 
 }
-/* Personaliza o botão do menu hambúrguer */
+
 .navbar-toggler i {
-    font-size: 1.5rem; /* Ajuste do tamanho */
+    font-size: 1.5rem; 
     
 }
 
 .imageContainer {
     display: flex;
-    justify-content: center; /* Centraliza a imagem */
+    justify-content: center; 
     padding: 1rem;
     width: 100%;
-    position: relative; /* Necessário para posicionar o texto */
+    position: relative; 
 }
 
 .image {
-    width: 58px; /* Tamanho da imagem */
-    height: auto; /* Mantém a proporção */
-    border-radius: 8px; /* Bordas arredondadas */
+    width: 58px; 
+    height: auto;
+    border-radius: 8px;
 }
 .textOverlay {
-    position: absolute; /* Permite posicionamento em relação ao contêiner */
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translate(-50%, 50%); /* Centraliza o texto */
-    color: black; /* Cor do texto */
-    font-size: 0.75rem; /* Ajuste o tamanho do texto */
-    font-weight: 400; /* Deixa o texto em negrito */
-    text-align: center; /* Centraliza o texto */
-    z-index: 1; /* Garante que o texto esteja acima da imagem */
-    pointer-events: none; /* Evita interação com o texto */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 50%);
+    color: black; 
+    font-size: 0.75rem; 
+    font-weight: 400; 
+    text-align: center;
+    z-index: 1; 
+    pointer-events: none; 
 }
 
 
@@ -80,12 +77,12 @@
 
 @media (max-width: 475px) {
     .brand-logo {
-        height:1rem; /* Tamanho reduzido para telas menores */
+        height:1rem; 
         margin-left: 1rem;
     }
     .divnav{
         justify-content:flex-start !important;
-        max-width: 100%; /* Remove as restrições de largura do Bootstrap */
+        max-width: 100%; 
         padding: 0;
       
     }
@@ -97,21 +94,21 @@
     }
     .navbar-nav {
         display: flex;
-        flex-direction: column; /* Itens em uma coluna (vertical) */
-        gap: 0.5rem; /* Espaçamento menor */
-        list-style: disc; /* Adiciona marcadores */
+        flex-direction: column; 
+        gap: 0.5rem; 
+        list-style: disc; 
         padding: 1rem 0 1rem 3rem;
 
     }
 
     .nav-item {
-        margin-bottom: 0.5rem; /* Espaçamento entre os itens */
+        margin-bottom: 0.5rem; 
        
     }
 
     .nav-link {
-        font-size: 1.25rem; /* Tamanho do texto */
-        color: #2D2D2D; /* Cor do link */
+        font-size: 1.25rem; 
+        color: #2D2D2D !important; 
         
     }
 

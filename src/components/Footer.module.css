@@ -1,25 +1,25 @@
-/* Contêiner principal do footer */
+
 
 .line{
-    height: 1px; /* Espessura da linha */
-    background-color: #ddd; /* Cor da linha */
+    height: 1px; 
+    background-color: #ddd; 
     
-    width: 95%; /* Ocupa toda a largura da tela */
+    width: 95%; 
 }
 .footerContainer {
-    background-color: #2d2d2d; /* Cor de fundo do footer */
-    color: #eaeaea; /* Cor do texto */
-     /* Espaçamento interno no eixo vertical */
+    background-color: #2d2d2d; 
+    color: #eaeaea; 
+     
     
 
 }
 
-/* Estilo interno do footer */
+
 .innerContainer {
     
     display: flex;
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    align-items: center; /* Centraliza os elementos horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
   
     padding: 2rem 0;
 }
@@ -33,34 +33,34 @@
    
 }
 
-/* Estilo para o texto */
+
 .text {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    line-height: 36px; /* Altura da linha */
-    text-align: center; /* Centraliza o texto */
+    font-size: 1.5rem; 
+    line-height: 36px; 
+    text-align: center; 
     color:#EAE8E4;
 }
 
-/* Estilo para links no footer */
+
 .link {
-    color: #EAE8E4; /* Cor do link */
-    text-decoration: none; /* Remove sublinhado */
-    font-weight: 500; /* Peso da fonte */
-    font-size: 1.5rem; /* Tamanho da fonte */
-    line-height: 23.56px; /* Altura da linha */
+    color: #EAE8E4;
+    text-decoration: none; 
+    font-weight: 500; 
+    font-size: 1.5rem; 
+    line-height: 23.56px; 
 }
 
 .link:hover {
 
-    text-decoration: none; /* Sublinha ao passar o mouse */
+    text-decoration: none; 
 }
 @media (max-width: 468px) {
     .link {
-        color: #EAE8E4; /* Cor do link */
-        text-decoration: none; /* Remove sublinhado */
-        font-weight: 400; /* Peso da fonte */
-        font-size: 1rem; /* Tamanho da fonte */
-        line-height: 18.85px; /* Altura da linha */
+        color: #EAE8E4; 
+        text-decoration: none; 
+        font-weight: 400; 
+        font-size: 1rem; 
+        line-height: 18.85px;
     }
     .text {
       margin-top: 1rem;

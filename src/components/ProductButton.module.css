@@ -1,33 +1,23 @@
-/* Estilo do botão */
 .productButton {
   font-family: 'Inter', sans-serif;
   border-radius: 32px;
-  /* Bordas arredondadas */
   border: 1px solid #7D26C9;
-  /* Borda de 1px preta */
   padding: 8px 40px;
-  /* Padding conforme especificado */
   background-color: #DFDCD5;
-  /* Cor de fundo */
   color: #7D26C9;
-  /* Cor do texto */
   font-size: 1rem;
-  /* Tamanho do texto */
   font-weight: 600;
-  /* Peso da fonte */
   line-height: 1.875rem;
   cursor: pointer;
-  /* Cursor de ponteiro ao passar o mouse */
+
 
 }
 
-/* Estilo ao passar o mouse */
+
 @media (max-width: 465px) {
   .productButton {
     padding: 8px 16px;
-    /* Padding conforme especificado */
     font-size: 1rem;
-    /* Tamanho do texto */
     line-height: 1rem;
   }
 

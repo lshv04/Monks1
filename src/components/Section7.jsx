@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import styles from './Section7.module.css'; // Importa o CSS Module
-import image9 from '../assets/Section7/image9.png'; // Importa a imagem
-
+import styles from './Section7.module.css';
+import image9 from '../assets/Section7/image9.png';
 const Section7 = () => {
     const [num1, setNum1] = useState(0);
     const [num2, setNum2] = useState(0);
@@ -14,7 +13,7 @@ const Section7 = () => {
         input4: '',
     });
 
-    // Gera dois números aleatórios sempre que o componente for carregado
+    // Gera dois números aleatórios 
     useEffect(() => {
         const randomNum1 = Math.floor(Math.random() * 999);
         const randomNum2 = Math.floor(Math.random() * 999);
@@ -31,9 +30,9 @@ const Section7 = () => {
         }));
     };
 
-    // Valida o input do usuário
+    // Validação do input
     const handleValidation = (e) => {
-        e.preventDefault(); // Previne o comportamento padrão de recarregar a página
+        e.preventDefault();
         const sum = num1 + num2;
         if (parseInt(userInput, 10) === sum) {
             const areAllInputsFilled = Object.values(formInputs).every((input) => input.trim() !== '');
@@ -52,7 +51,7 @@ const Section7 = () => {
         <section className={`container-fluid ${styles.footerContainer}`}>
             <div className={`container bord1 ${styles.innerContainer}`}>
                 <div className={`row ${styles.gridRow}`}>
-                    {/* Coluna com imagem */}
+
                     <div className={`col-12 col-md-4 bord1 ${styles.gridColumn}`}>
                         <img
                             src={image9}
@@ -61,7 +60,7 @@ const Section7 = () => {
                         />
                     </div>
 
-                    {/* Coluna com formulário */}
+
                     <div className={`col-12 col-md-8 bord1 ${styles.gridColumn}`}>
                         <div className={`bord1 ${styles.form}`}>
                             <div className={`bord ${styles.formTitle}`}>
@@ -75,7 +74,7 @@ const Section7 = () => {
                                 onSubmit={handleValidation}
                             >
                                 <div className="row g-3">
-                                    {/* Primeiro input */}
+
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
@@ -88,7 +87,7 @@ const Section7 = () => {
                                         />
                                     </div>
 
-                                    {/* Segundo input */}
+
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
@@ -101,7 +100,7 @@ const Section7 = () => {
                                         />
                                     </div>
 
-                                    {/* Terceiro input */}
+
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
@@ -114,7 +113,7 @@ const Section7 = () => {
                                         />
                                     </div>
 
-                                    {/* Quarto input */}
+
                                     <div className="col-12 col-md-6">
                                         <input
                                             type="text"
@@ -128,7 +127,7 @@ const Section7 = () => {
                                     </div>
                                 </div>
 
-                                {/* Verificação de segurança */}
+
                                 <div className={`bord container ${styles.securityCheck}`}>
                                     <div className={`bord row ${styles.checkContainer}`}>
                                         <h4 className='bord col-12 col-md-4 '>Verificação de segurança</h4>

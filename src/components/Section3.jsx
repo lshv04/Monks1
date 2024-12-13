@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Section3.module.css'; // Importa o CSS Module
-import image5 from '../assets/Section3/image5.png'; // Importa a imagem local
-import image6 from '../assets/Section3/image6.png'; // Importa a imagem local
-import image7 from '../assets/Section3/image7.png'; // Importa a imagem local
+import styles from './Section3.module.css';
+import image5 from '../assets/Section3/image5.png';
+import image6 from '../assets/Section3/image6.png';
+import image7 from '../assets/Section3/image7.png';
 
 const Section3 = () => {
     return (

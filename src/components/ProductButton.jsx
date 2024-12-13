@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ProductButton.module.css'; // Importa a folha de estilo modular
+import styles from './ProductButton.module.css'; 
 
 const ProductButton = ({ label }) => {
   return <button className={styles.productButton}>{label}</button>;

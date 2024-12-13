@@ -1,52 +1,29 @@
-/* Contêiner principal da seção */
-.sectionContainer{
-
-
+.sectionContainer {
     margin: 0;
-    /* Remove margem padrão */
-
-  
 }
 
-/* Contêiner interno */
-
-/* Estilo do título */
 .sectionTitle {
     font-size: 2.5rem;
     line-height: 46.92px;
-    /* Tamanho do título */
     font-weight: 400;
-    /* Negrito */
     color: #2d2d2d !important;
-    /* Cor do texto */
-    text-align:start;
-    /* Centraliza o título */
+    text-align: start;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
-    /* Espaçamento inferior */
 }
 
-/* Estilo do parágrafo */
+
 .sectionParagraph {
     font-size: 1.5rem;
-    /* Tamanho da fonte */
     line-height: 28.27px;
-    /* Espaçamento entre linhas */
     color: #2d2d2d !important;
-    text-align:start;
-    /* Centraliza o texto */
+    text-align: start;
     margin-bottom: 2rem;
-    /* Espaçamento inferior */
 }
 
-/* Estilo dos itens no grid */
 .gridItem {
 
-   
-    /* Borda para visualização */
     border-radius: 8px;
-    /* Bordas arredondadas */
-
     margin-bottom: 1rem;
-    /* Espaçamento inferior entre itens */
+
 }

@@ -1,28 +1,8 @@
-
-
-/* Contêiner interno */
-.innerContainer {
-
-}
-
-/* Estilo para as linhas */
-.gridRow {
-
-}
-
-/* Estilo para as colunas */
-.gridColumn {
-
-  
-
-}
-
-/* Responsividade */
 @media (max-width: 465px) {
     .gridRow {
-       
-        gap: 1rem; /* Espaçamento menor */
+
+        gap: 1rem;
     }
 
-  
+
 }

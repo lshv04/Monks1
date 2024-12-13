@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './Section4.module.css'; // Importa a folha de estilo modular
-import image8 from '../assets/Section4/image8.png'; // Importa a primeira imagem
+import styles from './Section4.module.css';
+import image8 from '../assets/Section4/image8.png';
 
 
 

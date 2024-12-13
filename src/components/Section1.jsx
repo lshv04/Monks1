@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
-import styles from './Section1.module.css'; // Importação do CSS Module
-import scrollImage from '../assets/scroll.png'; // Importação da imagem
+import styles from './Section1.module.css'; 
+import scrollImage from '../assets/scroll.png'; 
 
 const Section1 = () => {
     return (

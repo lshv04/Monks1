@@ -1,8 +1,7 @@
-/* Contêiner principal da seção */
+
 .sectionContainer {
     margin-top: 2rem;
     
-   
 }
 
 .gridColumn{
@@ -10,81 +9,60 @@
     flex-direction: column;
     justify-content: flex-end;
     
-   
 }
 
-/* Colunas */
 
-/* Estilo para o título e parágrafo */
 .title {
     height: 25%;
     margin-bottom: 1rem;
 }
 
 .title h2 {
-    font-size: 2.5rem; /* Tamanho do título */
-    font-weight: 400; /* Título em negrito */
-    color: #2d2d2d; /* Cor do título */
-    margin-bottom: 0.5rem; /* Espaçamento inferior */
+    font-size: 2.5rem; 
+    font-weight: 400; 
+    color: #2d2d2d; 
+    margin-bottom: 0.5rem; 
     line-height: 46.92px;
 }
 
 .title p {
-    font-size: 1.20rem; /* Tamanho do texto */
-    line-height: 28.27px;; /* Espaçamento entre linhas */
-    color: #2d2d2d !important; /* Cor do parágrafo */
+    font-size: 1.20rem; 
+    line-height: 28.27px;
+    color: #2d2d2d !important; 
     
 }
 
-/* Estilo para a imagem */
-/* Estilo da div que contém a imagem */
 .image {
    
-   
-    border-radius: 24px; /* Bordas arredondadas */
-    height: 75%; /* Altura fixa */
-    width: 100%; /* Largura total */
+    border-radius: 24px; 
+    height: 75%;
+    width: 100%; 
     padding: 0;
-    
 
-  
 }
 
-
-/* Estilo da imagem */
 .imageContent {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura */
-    height: auto; /* Mantém a proporção */
+    max-width: 100%; 
+    height: auto; 
     object-fit: cover;
     
- 
 }
 
 .imageContent2{
     height: 100%;
-    
+
 }
 
-
-
-/* Responsividade */
-
-/* @media (min-width: 821px) {
-  
- .title p {
-   margin-bottom: 7rem;
-}
-} */
 
 @media (min-width: 465px) and (max-width: 820px) {
     .image {
-        height: 100%; /* Garante que a imagem preencha a altura da div */
+        height: 100%; 
     }
 
     .imageContent {
-        width: 100%; /* Garante que a imagem ocupe a largura completa */
-        height: 100%; /* Preenche a altura da div */
-        object-fit: cover; /* Faz com que a imagem preencha a div sem distorção */
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
     }
  
 }
@@ -93,23 +71,19 @@
 
 @media (max-width: 465px) {
     .title h2 {
-        font-size: 1.5rem; /* Tamanho do título */
+        font-size: 1.5rem; 
         line-height: 28.15px;
     }
     .title p {
-        font-size: 1rem; /* Tamanho do texto */
-        line-height: 18.85px;; /* Espaçamento entre linhas */
+        font-size: 1rem; 
+        line-height: 18.85px;
 
-    
     }
     .gridColumn{
         margin-top: 2rem;
     }
     .image {
-   
-   
      height: 65%;
-      
     }
   
 }

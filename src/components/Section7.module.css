@@ -1,100 +1,92 @@
-/* Estilo para o contêiner principal */
 .footerContainer {
-    background-color: #2d2d2d; /* Fundo escuro */
-    color: #fff; /* Texto branco */
-    padding: 2rem 0; /* Espaçamento superior e inferior */
-    margin-top:2rem;
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 2rem;
     padding-bottom: 3rem;
 }
 
 
-
-/* Colunas */
 .gridColumn {
     display: flex;
     align-items: center;
 }
 
-/* Contêiner do formulário */
+
 .formContainer {
-    padding: 2rem 0; /* Espaçamento interno */
-   
+    padding: 2rem 0;
+
 }
 
-/* Estilo dos campos de input */
+
 .inputField {
-    background-color: #fff; /* Fundo branco */
+    background-color: #fff;
     border-radius: 8px;
-    padding: 6px 10px; /* Espaçamento interno */
-    font-size: 1rem; /* Tamanho do texto */
-    color: #666; /* Cor do texto */
-}
-.inputFieldValidation{
-    background-color: #fff; /* Fundo branco */
-    border-radius: 8px;
-    padding: 6px 10px; /* Espaçamento interno */
-    font-size: 1rem; /* Tamanho do texto */
-    color: #666; /* Cor do texto */
-    
-}
-/* Foco no input */
-.inputField:focus {
-    outline: none; /* Remove o contorno azul */
-    border-color: #c9a6f4; /* Cor da borda ao focar */
-    box-shadow: 0 0 4px rgba(201, 166, 244, 0.6); /* Sombra leve */
+    padding: 6px 10px;
+    font-size: 1rem;
+    color: #666;
 }
 
-/* Contêiner da verificação de segurança */
+.inputFieldValidation {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 1rem;
+    color: #666;
+
+}
+
+.inputField:focus {
+    outline: none;
+    border-color: #c9a6f4;
+    box-shadow: 0 0 4px rgba(201, 166, 244, 0.6);
+}
+
+
 .securityCheck {
     margin-top: 1rem;
-  
     border-radius: 12px;
     text-align: center;
 }
-.securityCheck h4{
+
+.securityCheck h4 {
     color: #2d2d2d;
     font-weight: 400;
     font-family: 1.5rem;
     line-height: 36px;
     margin: 0;
-   
+
 }
+
 .combinedNumbers {
     background: #DFDCD5;
     border-radius: 8px;
-    padding:0 24px;
-    display: inline-flex; /* Exibe os itens em linha */
-    align-items: center; /* Alinha os itens verticalmente */
-    gap: 0.25rem; /* Espaçamento entre os itens */
-    font-size: 1.25rem; /* Ajusta o tamanho geral */
+    padding: 0 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1.25rem;
 }
 
-
-/* Estilo dos números */
 .numberBox {
-    color: #7D26C9; /* Cor roxa */
+    color: #7D26C9;
     font-weight: bold;
-    padding: 0.2rem 0.5rem; /* Ajusta o espaçamento interno */
-    border-radius: 4px; /* Bordas arredondadas */
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
     background-color: transparent;
 }
 
-/* Operadores */
 .operator {
-    color: #333; /* Cor do texto */
-    font-size: 1.25rem; /* Ajusta o tamanho */
+    color: #333;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
-/* Mensagens */
 .message {
-    
     font-size: 1.2rem;
     color: #2d2d2d !important;
-
 }
 
-/* Botão */
 .validateBtn {
     font-family: 'Inter', sans-serif;
     margin: 1rem 0;
@@ -112,34 +104,37 @@
     background-color: #a783c4;
 }
 
-
 .image {
-    width: 100%; /* Faz a imagem preencher a largura da coluna */
-    height: auto; /* Mantém a proporção */
+    width: 100%;
+    height: auto;
     padding: 1rem;
-    object-fit: cover; /* Garante que a imagem seja cortada corretamente, se necessário */
-   
+    object-fit: cover;
+
 }
-.form{
+
+.form {
     height: 100%;
     background-color: #EAE8E4;
     border-radius: 24px;
     padding: 1rem;
 }
-.formTitle h2{
-    color:#2D2D2D;
+
+.formTitle h2 {
+    color: #2D2D2D;
     font-weight: 400;
     font-size: 2.5rem;
     line-height: 46.92px;
 }
-.formTitle p{
-    color:#2D2D2D !important;
+
+.formTitle p {
+    color: #2D2D2D !important;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 30px;
 }
-.formTitle small{
-    color:#2D2D2D !important;
+
+.formTitle small {
+    color: #2D2D2D !important;
     line-height: 18.85px;
     font-weight: 400;
     font-size: 1rem;
@@ -147,15 +142,17 @@
 }
 
 @media (max-width: 468px) {
-   .gridRow{
-    gap:2rem;
-   }
-   .formTitle h2{
-    font-size: 1.5rem;
-    line-height: 28.15px;
-}
-.formTitle p{
-    font-size: 1rem;
-    line-height: 24px;
-}
+    .gridRow {
+        gap: 2rem;
+    }
+
+    .formTitle h2 {
+        font-size: 1.5rem;
+        line-height: 28.15px;
+    }
+
+    .formTitle p {
+        font-size: 1rem;
+        line-height: 24px;
+    }
 }
