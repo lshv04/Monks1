@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como parte do processo seletivo para a Monks. O ob
 
 ## 📁 Acesso ao projeto  
 
-[Veja o projeto final do curso em funcionamento](https://lshv04.github.io/Monks1/).  
+[Veja o projeto final em funcionamento](https://lshv04.github.io/Monks1/).  
 
 ## ✔️ Técnicas e tecnologias utilizadas  
 
