@@ -11,6 +11,9 @@
     padding: 0;
 }
 
+.nav-link:visited {
+    color: #EAE8E4; /* Garante que a cor não muda */
+}
 .nav-link:hover {
     color: #ffffff; /* Cor ao passar o mouse */
 }

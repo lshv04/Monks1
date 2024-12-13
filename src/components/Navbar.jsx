@@ -45,22 +45,22 @@ const Navbar = () => {
                 >
                     <ul className={`navbar-nav bord1 ${styles['navbar-nav']}`}>
                         <li className={`nav-item ${styles['nav-item']}`}>
-                            <a className={`nav-link ${styles['nav-link']}`} href="/">
+                            <a className={`nav-link ${styles['nav-link']}`} href="#">
                                 Categoria 1
                             </a>
                         </li>
                         <li className={`nav-item ${styles['nav-item']}`}>
-                            <a className={`nav-link ${styles['nav-link']}`} href="/Categoria2">
+                            <a className={`nav-link ${styles['nav-link']}`} href="#">
                                 Categoria 2
                             </a>
                         </li>
                         <li className={`nav-item ${styles['nav-item']}`}>
-                            <a className={`nav-link ${styles['nav-link']}`} href="/Categoria3">
+                            <a className={`nav-link ${styles['nav-link']}`} href="#">
                                 Categoria 3
                             </a>
                         </li>
                         <li className={`nav-item ${styles['nav-item']}`}>
-                            <a className={`nav-link ${styles['nav-link']}`} href="/Categoria4">
+                            <a className={`nav-link ${styles['nav-link']}`} href="#">
                                 Categoria 4
                             </a>
                         </li>
