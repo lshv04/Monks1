@@ -1,5 +1,5 @@
 .footerContainer {
-    background-color: #2d2d2d;
+    background-color: var(--base-gray);
     color: #fff;
     padding: 2rem 0;
     margin-top: 2rem;
@@ -23,7 +23,7 @@
     background-color: #fff;
     border-radius: 8px;
     padding: 6px 10px;
-    font-size: 1rem;
+    font-size: var(--Size1);
     color: #666;
 }
 
@@ -31,7 +31,7 @@
     background-color: #fff;
     border-radius: 8px;
     padding: 6px 10px;
-    font-size: 1rem;
+    font-size: var(--Size1);
     color: #666;
 
 }
@@ -50,9 +50,9 @@
 }
 
 .securityCheck h4 {
-    color: #2d2d2d;
+    color: var(--base-gray);
     font-weight: 400;
-    font-family: 1.5rem;
+    font-family:"Inter", serif;
     line-height: 36px;
     margin: 0;
 
@@ -69,7 +69,7 @@
 }
 
 .numberBox {
-    color: #7D26C9;
+    color: var(--base-purple);
     font-weight: bold;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
@@ -84,14 +84,14 @@
 
 .message {
     font-size: 1.2rem;
-    color: #2d2d2d !important;
+    color: var(--base-gray) !important;
 }
 
 .validateBtn {
     font-family: 'Inter', sans-serif;
     margin: 1rem 0;
     background-color: #DFBBFE;
-    color: #2D2D2D;
+    color: var(--base-gray);
     padding: 8px 40px;
     border-radius: 4px;
     border: none;
@@ -114,30 +114,30 @@
 
 .form {
     height: 100%;
-    background-color: #EAE8E4;
+    background-color: var(--base-gray2);
     border-radius: 24px;
     padding: 1rem;
 }
 
 .formTitle h2 {
-    color: #2D2D2D;
+    color: var(--base-gray);
     font-weight: 400;
     font-size: 2.5rem;
     line-height: 46.92px;
 }
 
 .formTitle p {
-    color: #2D2D2D !important;
+    color: var(--base-gray) !important;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 30px;
 }
 
 .formTitle small {
-    color: #2D2D2D !important;
+    color: var(--base-gray) !important;
     line-height: 18.85px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: var(--Size1);
 
 }
 
@@ -147,12 +147,12 @@
     }
 
     .formTitle h2 {
-        font-size: 1.5rem;
+        font-size: var(--Size15);
         line-height: 28.15px;
     }
 
     .formTitle p {
-        font-size: 1rem;
+        font-size: var(--Size1);
         line-height: 24px;
     }
 }

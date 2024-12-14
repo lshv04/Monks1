@@ -5,23 +5,23 @@
 }
 
 .cardTitle {
-    font-size: 1.5rem;
+    font-size: var(--Size15);
     line-height: 2.25rem;
     font-weight: 400;
-    color: #2D2D2D !important;
+    color: var(--base-gray) !important;
 }
 
 .cardText {
     font-size: 1.25rem;
-    line-height: 1.5rem;
+    line-height: var(--Size15);
     font-weight: 400;
-    color: #2D2D2D !important;
+    color: var(--base-gray) !important;
 }
 
 .customBtn {
     margin: 0.5rem 0 0.5rem 0;
     background-color: #DFBBFE;
-    color: #2D2D2D;
+    color: var(--base-gray);
     padding: 8px 40px;
     border-radius: 4px;
     font-weight: 600;
@@ -42,8 +42,8 @@
     }
 
     .cardText {
-        font-size: 1rem;
-        line-height: 1.5rem;
+        font-size: var(--Size1);
+        line-height: var(--Size15);
 
 
     }
@@ -54,7 +54,7 @@
 
     .customBtn {
 
-        font-size: 1rem !important;
+        font-size: var(--Size1) !important;
         padding: 8px 32px;
         
     }

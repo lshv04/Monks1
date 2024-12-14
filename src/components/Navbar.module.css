@@ -7,12 +7,12 @@
 .nav-link {
     font-size: 1.25rem;
     font-weight: 400;
-    color: #EAE8E4; 
+    color: var(--base-gray2); 
     padding: 0;
 }
 
 .nav-link:visited {
-    color: #EAE8E4; 
+    color: var(--base-gray2); 
 }
 .nav-link:hover {
     color: #ffffff; 
@@ -42,7 +42,7 @@
 }
 
 .navbar-toggler i {
-    font-size: 1.5rem; 
+    font-size: var(--Size15); 
     
 }
 

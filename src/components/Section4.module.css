@@ -7,7 +7,7 @@
 .gridRow {
     max-width: 99%;
     background-color: #3C0C60;
-    border-radius: 1.5rem;
+    border-radius:1.5rem;
     padding: 2rem
 }
 
@@ -20,7 +20,7 @@
 .leftColumn h2 {
     font-size: 2rem;
     font-weight: 400;
-    color: #EAE8E4;
+    color: var(--base-gray2);
     margin-bottom: 0.5rem;
     line-height: 46.92px;
 
@@ -30,7 +30,7 @@
 
     font-size: 1.20rem;
     line-height: 28.27px;
-    color: #EAE8E4;
+    color: var(--base-gray2);
 
 }
 
@@ -51,14 +51,14 @@
 
     .leftColumn h2 {
 
-        font-size: 1.5rem;
+        font-size: var(--Size15);
         line-height: 28.15px;
 
     }
 
     .leftColumn p {
 
-        font-size: 1rem;
+        font-size:var(--Size1);
         line-height: 18.85px;
         
 
@@ -67,7 +67,7 @@
     .gridRow {
         max-width: 99%;
         background-color: #3C0C60;
-        border-radius: 1rem;
+        border-radius:var(--Size1);
         padding: 1.5rem;
     }
 

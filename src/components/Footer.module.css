@@ -7,7 +7,7 @@
     width: 95%; 
 }
 .footerContainer {
-    background-color: #2d2d2d; 
+    background-color: var(--base-gray); 
     color: #eaeaea; 
      
     
@@ -35,18 +35,18 @@
 
 
 .text {
-    font-size: 1.5rem; 
+    font-size: var(--Size15); 
     line-height: 36px; 
     text-align: center; 
-    color:#EAE8E4;
+    color:var(--base-gray2);
 }
 
 
 .link {
-    color: #EAE8E4;
+    color: var(--base-gray2);
     text-decoration: none; 
     font-weight: 500; 
-    font-size: 1.5rem; 
+    font-size: var(--Size15); 
     line-height: 23.56px; 
 }
 
@@ -56,10 +56,10 @@
 }
 @media (max-width: 468px) {
     .link {
-        color: #EAE8E4; 
+        color: var(--base-gray2); 
         text-decoration: none; 
         font-weight: 400; 
-        font-size: 1rem; 
+        font-size: var(--Size1); 
         line-height: 18.85px;
     }
     .text {

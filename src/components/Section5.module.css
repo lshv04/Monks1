@@ -5,7 +5,7 @@
 .innerContainer h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  color: #2d2d2d;
+  color: var(--base-gray);
   margin-bottom: 1rem;
   line-height: 46.92px;
 
@@ -25,9 +25,9 @@
   }
 
   .innerContainer h2 {
-    font-size: 1.5rem;
+    font-size: var(--Size15);
     font-weight: 400;
-    color: #2d2d2d;
+    color: var(--base-gray);
     margin-bottom: 1rem;
     line-height: 28.15px;
 

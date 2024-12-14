@@ -1,5 +1,5 @@
 .sectionContainer {
-    background-color: #2d2d2d;
+    background-color: var(--base-gray);
     padding: 0;
     margin: 0;
     width: 100%;
@@ -20,15 +20,15 @@
 }
 
 h1 {
-    color: #EAE8E4 !important;
+    color: var(--base-gray2) !important;
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 1rem;
 }
 
 p {
-    color: white !important;
-    font-size: 1.5rem;
+    color: #fff!important;
+    font-size: var(--Size15);
     line-height: 1.6;
     margin-bottom: 1rem;
 }
@@ -65,20 +65,20 @@ p {
     }
 
     h1 {
-        color: #EAE8E4 !important;
-        font-size: 1.5rem;
+        color: var(--base-gray2) !important;
+        font-size: var(--Size15);
         font-weight: 700;
 
     }
 
     p {
-        font-size: 1rem;
+        font-size: var(--Size1);
     }
 
     .section1main {
         width: 50%;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
 
     }
 

@@ -6,7 +6,7 @@
     font-size: 2.5rem;
     line-height: 46.92px;
     font-weight: 400;
-    color: #2d2d2d !important;
+    color: var(--base-gray) !important;
     text-align: start;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
@@ -14,9 +14,9 @@
 
 
 .sectionParagraph {
-    font-size: 1.5rem;
+    font-size: var(--Size15);
     line-height: 28.27px;
-    color: #2d2d2d !important;
+    color: var(--base-gray)!important;
     text-align: start;
     margin-bottom: 2rem;
 }
@@ -24,6 +24,6 @@
 .gridItem {
 
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 
 }
