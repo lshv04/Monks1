@@ -13,6 +13,7 @@ Este projeto foi desenvolvido como parte do processo seletivo para a Monks. O ob
 ## ✔️ Técnicas e tecnologias utilizadas  
 
 - **HTML/CSS e React**: Utilizados para marcação, estilização e gerenciamento de comportamento e estado da página.  
+- **Variáveis CSS**: Criadas variáveis CSS para facilitar a manutenção de classes de cores e fontes que aparecem frequentemente no código.
 - **React Hooks**: Implementados os hooks `useState`, para gerenciar estados de componentes como o botão Hamburguer da Navbar e o formulário, e `useEffect`, para executar ações após a renderização dos componentes.  
 - **React Components**: Componentização de itens da página para facilitar a manutenção e reutilização do código.  
 - **React CSS Modules**: Criação de folhas de estilo modulares para cada componente, facilitando a manutenção e organização do projeto.  
